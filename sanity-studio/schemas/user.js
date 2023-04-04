@@ -6,27 +6,27 @@ export default {
     {
       title: 'Username',
       name: 'username',
-      tyle: 'string',
+      type: 'string',
     },
     {
       title: 'Name',
       name: 'name',
-      tyle: 'string',
+      type: 'string',
     },
     {
       title: 'Email',
       name: 'email',
-      tyle: 'string',
+      type: 'string',
     },
     {
       title: 'Image',
       name: 'image',
-      tyle: 'string',
+      type: 'string',
     },
     {
       title: 'Following',
       name: 'following',
-      tyle: 'array',
+      type: 'array',
       of: [
         {
           type: 'reference',
@@ -42,7 +42,7 @@ export default {
     {
       title: 'Followers',
       name: 'followers',
-      tyle: 'array',
+      type: 'array',
       of: [
         {
           type: 'reference',
